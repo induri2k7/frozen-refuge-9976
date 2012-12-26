@@ -1,6 +1,6 @@
 <?php
-require 'lib/facebook.php';
-require 'lib/fbconfig.php';
+require 'facebook.php';
+require 'fbconfig.php';
 session_start();
 $facebook=$_SESSION['facebook'];
 $userdata=$_SESSION['userdata'];
